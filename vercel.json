@@ -11,11 +11,5 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "github": {
-    "silent": true
-  },
-  "env": {
-    "NODE_ENV": "production"
-  }
+  ]
 }
