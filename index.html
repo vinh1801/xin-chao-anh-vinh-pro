@@ -515,4 +515,15 @@
             // Add click effect to social links
             document.querySelectorAll('.social-link').forEach(link => {
                 link.addEventListener('click', (e) => {
-                    e.preventDefault
+                    e.preventDefault-e 
+                    e.preventDefault();
+                    link.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        link.style.transform = 'scale(1)';
+                    }, 150);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
