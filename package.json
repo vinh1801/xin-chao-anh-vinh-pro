@@ -1,0 +1,16 @@
+{
+  "name": "xin-chao-anh-vinh-pro",
+  "version": "1.0.0",
+  "description": "Trang web đẹp chào mừng anh Vinh từ Pet AI Assistant",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve .",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["xin-chao", "vinh", "pet", "ai-assistant", "static-site"],
+  "author": "Pet AI Assistant",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
